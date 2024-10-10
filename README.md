@@ -9,23 +9,21 @@ This project is twitter-like system based on service-based pattern from [FOSA].
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
 * [Project Structure](#project-structure)
-* [Filters Overview](#filters-overview)
-* [Customization](#customization)
+* [Services Overview](#services-overview)
 * [Contacts](#contacts)
 
 ## Demo
 
 ## Features
 
-- Blur Filter: Applies Gaussian blur to video frames.
-- Grayscale Filter: Converts video frames to grayscale.
-- Mirror Filter: Mirrors video frames.
-- Resize Filter: Resizes video frames to the given size.
+- User Service: registration/getting users.
+- Message Service: post/get/like messages.
+- Feed service: get all posted messages.
 
 ## Prerequisites
 
 - Python 3.10+
-- OpenCV (cv2 module)
+- Nginx
 
 ## Installation
 
