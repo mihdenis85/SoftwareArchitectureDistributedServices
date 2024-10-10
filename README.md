@@ -101,7 +101,6 @@ python client.py
 │   ├── __init__.py
 ├── .gitignore
 ├── client.py
-├── nginx.conf
 └── README.md
 ```
 
